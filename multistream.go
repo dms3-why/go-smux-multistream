@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	smux "github.com/libp2p/go-stream-muxer"
-	mss "github.com/multiformats/go-multistream"
+	smux "github.com/dms3-p2p/go-stream-muxer"
+	mss "github.com/dms3-mft/go-multistream"
 )
 
 var DefaultNegotiateTimeout = time.Second * 60
